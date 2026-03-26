@@ -1,0 +1,23 @@
+GitHub Repository — DLMDSEDE02 Phase 2 Submission
+Author: Meghana Tulsi
+Matriculation Number: 10249575
+Course: Data Engineering (DLMDSEDE02)
+
+Repository URL:
+https://github.com/[YOUR-USERNAME]/fraud-detection-pipeline
+
+Instructions:
+1. Create a new GitHub repository named: fraud-detection-pipeline
+2. Upload all project files from the submitted ZIP to the repository
+3. Replace [YOUR-USERNAME] above with your GitHub username
+4. Update this file with the live URL before submission
+
+Repository structure includes:
+- docker-compose.yml (Infrastructure as Code)
+- kafka_producer/  (Dockerfile + producer.py)
+- kafka_consumer/  (Dockerfile + consumer.py)
+- spark_jobs/      (feature_engineering.py)
+- airflow/dags/    (fraud_pipeline_dag.py)
+- fastapi_app/     (Dockerfile + main.py)
+- postgres/        (init.sql)
+- README.md        (full setup & run instructions)
